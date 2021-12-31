@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+<title>W3schools</title>
+<style>.top{
+    position: fixed;
+    overflow: hidden;
+    margin-top: -2%;
+    background-color:rgb(173, 182, 230);
+      width: 100%;
+   }
+  
+  .head img {
+    float: left;
+    width: 20%;
+    height: 25%;
+    background: #555;
+    bottom: auto;
+  }
+  
+  .head h2 {
+    position: relative;
+    top: 20%;
+    left: 10px;
+    margin-top: 2.5%;
+  }
+   
+   fieldset{
+     border-color:#04AA6D;
+     box-sizing: border-box;
+    
+   }
+   
+   
+   .full{
+     padding-top: 5%;
+   
+  
+   }
+   
+  .topnav {
+      background-color: #333;
+      overflow: hidden;
+      position: fixed;
+      
+      
+      width: 100%;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    /* Add a color to the active/current link */
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+  
+   
+  
+    #w{
+  
+     font-size:xx-large;
+      font-style: initial;
+      font-family:monospace;
+      color:#333;
+   }
+  
+   table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+    
+   * {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color:black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+  
+  /*thankyou page button*/
+  
+  .button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }</style>
+
+<header>
+  <div class="top">
+  <div class="head">
+    <img src="Images/image.png" alt="logo" />
+    <h2>THE WORLDS LARGEST WEBDEVELOPER SITE</h2>
+  </div>
+  
+
+  <div class="topnav">
+  
+    <a class="HTML" href="https://www.w3schools.com/html/default.asp"><U>HTML</U></a>
+    <a href="https://www.w3schools.com/css/default.asp"><U>CSS</U></a>
+    <a href="https://www.w3schools.com/js/default.asp"><U>JAVASCRIPT</U></a>
+    <a href="https://www.w3schools.com/python/default.asp"><U>PYTHON</U></a>
+    <a href="https://www.w3schools.com/sql/default.asp"><U>SQL</U></a>
+    <a href="https://www.w3schools.com/php/default.asp"><U>PHP</U></a>
+    <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp"><U>BOOTSTRAP</U></a>
+    <a href="https://www.w3schools.com/cpp/default.asp"><U>C++</U></a>
+    <a href="https://www.w3schools.com/java/default.asp"><U>JAVA</U></a>
+  </div>
+
+  </div>
+
+</header>
+</head>
+<body>
+
+<fieldset>
+  <legend>box</legend>
+<div class="full" >
+<h1 >HTML Introduction</h1>
+<p>HTML is the standard markup language for creating Web pages.</p>
+
+<ol start= "1">
+    <li>What is HTML</li>
+    <li>What is HTML element</li>
+    <li>Web Browsers</li>
+</ol>
+<br>
+
+<div>
+    <h1>What is HTML</h1>
+    <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+          <li>HTML is the standard markup language for creating Web pages</li>
+          <li>HTML describes the structure of a Web page</li>
+          <li>HTML consists of a series of elements</li>
+          <li>HTML elements tell the browser how to display the content</li>
+          <li>HTML elements label pieces of content such as &quot;this is a heading&quot;, &quot;this 
+          is a paragraph&quot;, &quot;this is a link&quot;, etc.</li>
+        </ul>
+</div>
+
+<h2>What is an HTML Element?</h2>
+<p>An HTML element is defined by a start tag, some content, and an end tag:</p>
+<div style="font-size:20px;padding:10px;margin-bottom:10px;">
+<span style="color:brown"><span style="color:mediumblue">&lt;</span>tagname<span style="color:mediumblue">&gt;</span></span>Content goes here...<span style="color:brown"><span style="color:mediumblue">&lt;</span>/tagname<span style="color:mediumblue">&gt;</span></span>
+</div>
+
+<p>The HTML <strong>element</strong> is everything from the start tag to the end tag:</p>
+
+<div style="font-size:20px;padding:10px;margin-bottom:10px;">
+<span style="color:brown"><span style="color:mediumblue">&lt;<span style="color:brown">h1</span>&gt;</span></span>My 
+  First Heading<span style="color:brown"><span style="color:mediumblue">&lt;</span>/h1<span style="color:mediumblue">&gt;</span></span>
+</div>
+
+<div style="font-size:20px;padding:10px;margin-bottom:10px;">
+<span style="color:brown"><span style="color:mediumblue">&lt;</span>p<span style="color:mediumblue">&gt;</span></span>My first paragraph.<span style="color:brown"><span style="color:mediumblue">&lt;</span>/p<span style="color:mediumblue">&gt;</span></span>
+</div>
+
+<table class="ws-table-all notranslate">
+<tr>
+<th>Start tag</th>
+<th>Element content</th>
+<th>End tag</th>
+</tr>
+<tr>
+<td>&lt;h1&gt;</td>
+<td>My First Heading</td>
+<td>&lt;/h1&gt;</td>
+</tr>
+<tr>
+<td>&lt;p&gt;</td>
+<td>My first paragraph.</td>
+<td>&lt;/p&gt;</td>
+</tr>
+<tr>
+<td>&lt;br&gt;</td>
+<td><em>none</em></td>
+<td><em>none</em></td>
+</tr>
+</table>
+
+
+<hr>
+<h2>Web Browsers</h2>
+<p>The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them 
+correctly.</p>
+<p>A browser does not display the HTML tags, but uses them to determine how to display the document:</p>
+<p><img alt="View in Browser" src="https://www.w3schools.com/html/img_chrome.png" class="w3-image" style="margin-left: 380px;"></p>
+<hr>
+
+<div class="container">
+  <form action="/Thankyou.html">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."  required> 
+      </div>
+    </div> 
+    <div class="row" >
+      <div class="col-25">
+        <label for="gender" >Gender</label>
+      </div>
+      <input type="radio" id="male" name="gender" value="Male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="Female">Female</label>
+  <input type="radio" id="javascript" name="gender" value="other">
+  <label for="other">Other</label>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="Rate">Rating</label>
+      </div>
+      <div class="col-75">
+        <select id="Rate" name="Rate"  >
+          <option value="Very Good">Excellent</option>
+          <option value="Good">Good</option>
+          <option value="Bad">Fair</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Suggestion</label>
+      </div>
+      <div class="col-75">
+        <textarea id="Review" name="subject" placeholder="Please write any suggestion..." style="height:200px" required></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input onclick="myFunction()" type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+</div>
+</fieldset>
+
+
+<script>
+  function myFunction() {
+    confirm("Are you sure ?");
+  }
+</script>
+</body>
+</html>
